@@ -1,4 +1,4 @@
-
+package interviewCodepackage.java;
 //Find the total number of prime numbers from 1 to 100.
 
 public class Prime_Number_How_Many {

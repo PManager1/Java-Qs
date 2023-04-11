@@ -58,21 +58,20 @@ public class BankAccount {
         this.PhoneNumber = PhoneNumber;
     }
 
-//    Metjod to deposit funds in the account.
-public void AddFunds(Double Amount) {
-//TOdo  creat the deposit method.
+    //    Metjod to deposit funds in the account.
+    public void AddFunds(Double Amount) {
+        accountBalance += Amount;
+        System.out.println("The Balance =" + accountBalance);
 
-//todo show the balance.
-    accountBalance += Amount;
-    System.out.println("The Balance ="+ accountBalance);
+    }
 
-}
     //    Method to Withdraw funds in the account.
     public void WithDrawFunds(Double Amount) {
-
-//        if the balance becoems negative, you shoudl not be able to withdraw.
-//todo show the balance.
-        accountBalance -= Amount;
-        System.out.println("The Balance ="+ accountBalance);
+        if (accountBalance - Amount < 0) {
+            System.out.println("Negative Balance Asshole");
+        } else {
+            accountBalance -= Amount;
+            System.out.println("The Balance =" + accountBalance);
+        }
     }
 }

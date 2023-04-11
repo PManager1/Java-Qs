@@ -1,4 +1,4 @@
-//Prime_Number_Check
+package interviewCodepackage.java;//Prime_Number_Check
 
 
 public class Prime_Number_Check {
