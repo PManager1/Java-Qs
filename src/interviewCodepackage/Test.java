@@ -1,17 +1,23 @@
 package interviewCodepackage;
 
+
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Start");
 
-        int iterator = 0;
+        String str = "Radar", reverseStr = "";
 
-        do {
-            System.out.println("iterator value ="+ iterator);
-            iterator++;
+        int strLength = str.length();
 
-        }while (iterator<25);
+        for (int i = (strLength - 1); i >=0; --i) {
+            reverseStr = reverseStr + str.charAt(i);
+        }
 
-
+        if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
+            System.out.println(str + " is a Palindrome String.");
+        }
+        else {
+            System.out.println(str + " is not a Palindrome String.");
+        }
     }
 }
