@@ -1,4 +1,4 @@
-package interviewCodepackage.java;
+package interviewCodepackage;
 
 public class Palindome {
 

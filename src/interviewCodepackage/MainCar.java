@@ -1,9 +1,9 @@
-package interviewCodepackage.java;
+package interviewCodepackage;
 
-public class StringReversal {
+public class MainCar {
 
     public static void main(String[] args) {
         System.out.println("Start");
-    }
 
+    }
 }

@@ -1,4 +1,4 @@
-package interviewCodepackage.java;//in teh range 1 to 1000.
+package interviewCodepackage;//in teh range 1 to 1000.
 // find all the numbers that can be divided by 3 & 5.
 // Print those numbers.
 // Do all the code within the void main fn , do not create seperate fun.

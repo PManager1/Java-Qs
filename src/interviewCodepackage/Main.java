@@ -1,7 +1,6 @@
-package interviewCodepackage.java;//Prime_Number_Check
+package interviewCodepackage;
 
-
-public class Prime_Number_Check {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("0 is a " + (isPrime(0) + " prime number"));
@@ -35,7 +34,6 @@ public class Prime_Number_Check {
 
 
 }
-
 
 
 

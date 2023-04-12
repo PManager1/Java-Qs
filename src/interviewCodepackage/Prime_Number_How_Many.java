@@ -1,6 +1,7 @@
-package interviewCodepackage.java;
+package interviewCodepackage;
+//Find the total number of prime numbers from 1 to 100.
 
-public class Main {
+public class Prime_Number_How_Many {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("0 is a " + (isPrime(0) + " prime number"));
@@ -34,6 +35,7 @@ public class Main {
 
 
 }
+
 
 
 
