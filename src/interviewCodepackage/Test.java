@@ -1,23 +1,21 @@
-package interviewCodepackage;
-
+import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class Test {
     public static void main(String[] args) {
 
-        String str = "Radar", reverseStr = "";
+        int[] tensArray = { 10,2,30,40,50,60};
 
-        int strLength = str.length();
+        Arrays.sort(tensArray);
 
-        for (int i = (strLength - 1); i >=0; --i) {
-            reverseStr = reverseStr + str.charAt(i);
-        }
+        System.out.println(" tensArray sorted    =" + Arrays.toString(tensArray)  );
 
-        if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
-            System.out.println(str + " is a Palindrome String.");
-        }
-        else {
-            System.out.println(str + " is not a Palindrome String.");
-        }
+
+//        int[] secondArray =  {40, 2,3,4,5,6,29};
+
+        int[] secondArray = new int[10];
+        Arrays.fill(secondArray, 5 );
+        System.out.println(" 19 second Array     =" + Arrays.toString(secondArray)  );
     }
 }
