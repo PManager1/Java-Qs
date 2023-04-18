@@ -18,10 +18,11 @@ public class ArrayChunking {
 
         int arr  []  = {1, 2, 3, 4, 5, 6};
 
-        int[] ints = {1, 2, 3, 4, 5, 6};
-        List<Integer> intList = new ArrayList<Integer>(ints.length);
+//        int[] ints = {1, 2, 3, 4, 5, 6};
+        List<Integer> intList = new ArrayList<Integer>(arr.length);
+//        List<Integer> intList = new ArrayList<Integer>(arr.length);
 
-        for (int i : ints)
+        for (int i : arr)
         { intList.add(i); }
 
         System.out.println("30--intList =" +  intList);
