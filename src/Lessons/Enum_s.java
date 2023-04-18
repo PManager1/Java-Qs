@@ -1,5 +1,7 @@
 package Lessons;
 
+import java.util.Random;
+
 public class Enum_s {
 
     public enum DayOfTheWeek{
@@ -19,5 +21,12 @@ public class Enum_s {
         System.out.println( "ordinal =" +  weekDay.ordinal() );
 
 
+    }
+
+    public static DayOfTheWeek RandomDay () {
+
+            int randomInteger = new Random().nextInt(7);  // the no shoudl be 0-6
+            var allDays = DayOfTheWeek.values();
+            return allDays[randomInteger];
     }
 }
