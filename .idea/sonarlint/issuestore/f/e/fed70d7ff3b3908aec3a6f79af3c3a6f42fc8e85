@@ -1,0 +1,29 @@
+
+{
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûØ¿¹øÿÿÿÿ8ÿÇÛÁø0
+l	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷—r8€ÈÛÁø0
+l	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷—r8€ÈÛÁø0
+m	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¡‰¹8€ÈÛÁø0
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®‹Ù8€ÈÛÁø0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬Âü8€ÈÛÁø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ŒÈÛÁø0
+U	java:S106("9Replace this use of System.out or System.err by a logger.(øôôë8ÈÛÁø0
+X	java:S125!"<This block of commented-out lines of code should be removed.(ó »·8ŒÈÛÁø0
+W	java:S125&"<This block of commented-out lines of code should be removed.(˜Ì²8ŒÈÛÁø0
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ß’ƒæıÿÿÿÿ8ÈÛÁø0
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¨Õëµüÿÿÿÿ8™‰Şø0
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(±ÈÎÖûÿÿÿÿ8™‰Şø0
+L
+java:S11972"*Move the array designators [] to the type.(èİÔÓşÿÿÿÿ8ÈÛÁø0
+E
+java:S16596")Declare "right_digit" on a separate line.(ğ÷—r8ÈÛÁø0
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ãÔ˜Ò8‚™‰Şø0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(„±‰8ÿë‰Şø0
+]	java:S1259"<This block of commented-out lines of code should be removed.(Á‹ÀÜûÿÿÿÿ8ÈÛÁø0
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(ğ€åØûÿÿÿÿ8€ì‰Şø0
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(ùÑÙß8€ì‰Şø0
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(…»Ã‹üÿÿÿÿ8€ì‰Şø0
+V
+java:S3400Z"9Remove this method and declare a constant for this value.(”·³›8ÈÛÁø0
+G
+java:S1172X"*Remove this unused method parameter "Arr".(«¡‰¹8ÈÛÁø0

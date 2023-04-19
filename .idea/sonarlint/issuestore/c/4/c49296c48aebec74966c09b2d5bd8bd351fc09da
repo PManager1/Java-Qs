@@ -1,0 +1,26 @@
+
+{
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾½û­şÿÿÿÿ8ÂˆÁéø0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§š·8ÂˆÁéø0
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šå‡ù8ÂˆÁéø0
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Šà™é8ÃˆÁéø0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬Âü8ÅˆÁéø0
+U
+java:S1854,"9Remove this useless assignment to local variable "llist".(öôÖi8ÏˆÁéø0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¹ÀÊïüÿÿÿÿ8ĞˆÁéø0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¹ÀÊïüÿÿÿÿ8ĞˆÁéø0
+G
+java:S1197)"*Move the array designators [] to the type.(™Ÿ‰‰8ĞˆÁéø0
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(­ÖÅÓ8ÑˆÁéø0
+F
+java:S1481,"*Remove this unused "llist" local variable.(öôÖi8ÑˆÁéø0
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(‹Óóşÿÿÿÿ8ÑˆÁéø0
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(ƒæ©]8ÒˆÁéø0
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(»Õ¥ùÿÿÿÿ8ÒˆÁéø0
+X	java:S125D"<This block of commented-out lines of code should be removed.(¿Ù‘Õ8ÒˆÁéø0
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(™‘Íúüÿÿÿÿ8ÒˆÁéø0
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(…ÿŸúüÿÿÿÿ8ÒˆÁéø0
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(…Á£şÿÿÿÿ8ÓˆÁéø0
+X	java:S125O"<This block of commented-out lines of code should be removed.(©Õ‰ğ8ÓˆÁéø0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÓˆÁéø0

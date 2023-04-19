@@ -1,0 +1,18 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(òÄ‚‹8ØÍ ºø0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬Âü8ØÍ ºø0
+L
+java:S1197"*Move the array designators [] to the type.(¹ç•¸øÿÿÿÿ8ÜÍ ºø0
+X	java:S125"<This block of commented-out lines of code should be removed.(Ãº±š8ÜÍ ºø0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õ²•¡8ÜÍ ºø0
+B
+java:S2116"%Use "Arrays.toString(array)" instead.(õ²•¡8ÜÍ ºø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(È›ßñùÿÿÿÿ8ÝÍ ºø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÏèùÿÿÿÿ8ÝÍ ºø0
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ŠûŽ¢8ÝÍ ºø0
+X	java:S125#"<This block of commented-out lines of code should be removed.(°Ü‰Ë8ÝÍ ºø0
+X	java:S125("<This block of commented-out lines of code should be removed.(î‚Ðó8ÝÍ ºø0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÝÍ ºø0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÝÍ ºø0

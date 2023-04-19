@@ -1,0 +1,18 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¬Âü8›è²µø0
+Z
+java:S1854""8Remove this useless assignment to local variable "list".(Þ×†èúÿÿÿÿ8ü¢ºµø0
+_
+java:S18544"=Remove this useless assignment to local variable "tempArray".(úº´«øÿÿÿÿ8»è²µø0
+K
+java:S1481"")Remove this unused "list" local variable.(Þ×†èúÿÿÿÿ8ý¢ºµø0
+]	java:S125#"<This block of commented-out lines of code should be removed.(«éŠ×ÿÿÿÿÿ8ý¢ºµø0
+]	java:S125."<This block of commented-out lines of code should be removed.(·²Žÿÿÿÿÿÿ8¿è²µø0
+X	java:S1250"<This block of commented-out lines of code should be removed.(„ï–È8¿è²µø0
+P
+java:S14814".Remove this unused "tempArray" local variable.(úº´«øÿÿÿÿ8Àè²µø0
+X	java:S1256"<This block of commented-out lines of code should be removed.(³—ä–8Àè²µø0
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(Ðö¶žüÿÿÿÿ8Àè²µø0
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(Û“ƒ¿8‚§µµø0
+]	java:S125C"<This block of commented-out lines of code should be removed.(š€„øùÿÿÿÿ8†”¿µø0
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(ýþ©Ñùÿÿÿÿ8ÓûÁµø0
