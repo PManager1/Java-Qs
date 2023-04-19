@@ -22,20 +22,50 @@ public class MaxChars_ste {
 
         // first sort the elements ?? we dont need it // try in JS
 
-        HashMap<Character, Integer> characters = new HashMap<>();
-        // add elements to hashmap
-        characters.put('a', 8);
-        characters.put('b', 2);
-        characters.put('c', 6);
-        characters.put('g', 9);
+        String st = "abcccccccd";
 
-        System.out.println("HashMap: " + characters);
-        System.out.println("HashMap: " + characters.get('a'));
+        String stArr [] = st.split("");
+//
+//        for ( int i =0; i< stArr.length; i++){
+//            System.out.println(" stArr[i] = " + stArr[i] );
+//        }
 
-        System.out.println("containsKey: " + characters.containsKey ('a'));
-        System.out.println("containsValue : " + characters.containsValue(62));
-        characters.put('g', 19);  // this will override the exiting value.
-        characters.replace('z', 19);  //  if the key dont exist it wont do anything bc it dont exist.
+        HashMap<Character, Integer> chars = new HashMap<>();
+
+// Insert elements in Hashmap.
+        for ( int i =0; i< stArr.length; i++){
+            System.out.println(" stArr[i] = " + stArr[i] );
+
+
+            // if chars.IteratingChar = DOES NOT exists //  Create one, //  then append its count by 1.
+            if ( chars.containsKey (stArr[i].charAt(0) ) == false ) {
+                System.out.println("43----- DOES NOT exists ------ " +  stArr[i].charAt(0) );
+            System.out.println("2 containsKey: " + chars.containsKey (stArr[i].charAt(0) ));
+
+            chars.put(  stArr[i].charAt(0) , 1);
+
+            System.out.println("3 containsKey: " + chars.containsKey (stArr[i].charAt(0) ));
+            } else {
+                // find the char and increase the number by one.
+                System.out.println(" ELSE -   containsKey: " + chars.containsKey (stArr[i].charAt(0)  ));
+
+            }
+
+
+            // if chars.IteratingChar = exists // Traverse the Object ,  If exists, then increase its Count Number.
+
+
+        }
+
+        System.out.println("chars: " + chars);
+
+        // for loop
+
+
+
+
+
+
 
 
     }
