@@ -15,13 +15,11 @@
 
 package Today;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
-public class max_iiiish {
+public class isshP_max {
     public static void main(String[] args) {
 
         Integer a []  = {1, 3, 5};
