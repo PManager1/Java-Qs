@@ -1,0 +1,18 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’šèŸ8Øû³ªù0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïö±±ÿÿÿÿÿ8¶µ¹ªù0
+Z
+java:S1854"=Remove this useless assignment to local variable "chunkSize".(¾ ¢å8ßû³ªù0
+K
+java:S1481".Remove this unused "chunkSize" local variable.(¾ ¢å8àû³ªù0
+L
+java:S1197"*Move the array designators [] to the type.(ü«®íýÿÿÿÿ8àû³ªù0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(´ÖŠš8âû³ªù0
+W	java:S125"<This block of commented-out lines of code should be removed.(­™ä)8âû³ªù0
+Y
+java:S1994"<Move the update of "Pointer" into this loop's update clause.(˜ë¬Ó8ŠØ½ªù0
+]	java:S125"<This block of commented-out lines of code should be removed.(Ïö±±ÿÿÿÿÿ8­ñ¼ªù0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ë‚ÁÌ8âû³ªù0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‹Ø½ªù0

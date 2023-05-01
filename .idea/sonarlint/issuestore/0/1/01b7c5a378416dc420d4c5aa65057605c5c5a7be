@@ -1,0 +1,12 @@
+
+Z
+java:S1854">Remove this useless assignment to local variable "origiArray".(®ß¶	8©ÉŸ¼ù0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†„“ð8ºíž¼ù0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»£ÅÓúÿÿÿÿ8ºíž¼ù0
+X	java:S125"<This block of commented-out lines of code should be removed.(©ëˆü8ºíž¼ù0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÅöÌÔ8ºíž¼ù0
+]	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ºíž¼ù0
+K
+java:S1481"/Remove this unused "origiArray" local variable.(®ß¶	8«ÉŸ¼ù0
+M
+java:S1128"+Remove this unused import 'Lessons.Arrays'.(ìÕâ±þÿÿÿÿ8´•¡¼ù0
