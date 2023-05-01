@@ -38,5 +38,72 @@ public class Arrays {
 //                java.util.Arrays.equals(sorted_ar1, sorted_ar2));
 
 
+//        String gfg[] = { "Geeks", "for", "Geeks" };
+//        System.out.println("15--- gfg = "+ java.util.Arrays.toString(gfg));
+
+
+//        Adding two arrays of string  -   https://www.tutorialspoint.com/javaexamples/arrays_merge.htm
+
+//        String aa[] = { "A", "E", "I" };
+//        String bb[] = { "O", "U" };
+//        List list = new ArrayList(java.util.Arrays.asList(aa));
+//        list.addAll(java.util.Arrays.asList(bb));
+//        Object[] cc = list.toArray();
+//        System.out.println(java.util.Arrays.toString(cc));   //
+
+
+
+        // Add two STRING  arrays
+
+        //        ArrayList<String> listOne = new ArrayList<>(Arrays.asList("a", "b", "c"));
+//        ArrayList<String> listTwo = new ArrayList<>(Arrays.asList("c", "d", "e"));
+//
+//        listOne.addAll(listTwo);  //Merge both lists
+//
+//        System.out.println(listOne);
+//        System.out.println(listTwo);
+
+
+//        Add two INT  arrays
+//        ArrayList<Integer> listOne = new ArrayList<>(java.util.Arrays.asList(1,2,3));
+//        ArrayList<Integer> listTwo = new ArrayList<>(java.util.Arrays.asList(1,2,3));
+//
+//        listOne.addAll(listTwo);  //Merge both lists
+//
+//        System.out.println(listOne);
+//        System.out.println(listTwo);
+
+
+//        Add two int arrays with System.arraycopy  https://www.geeksforgeeks.org/java-program-to-merge-two-arrays/
+
+
+        // first array
+//        int[] a = { 10, 20, 30, 40 };
+//
+//        // second array
+//        int[] b = { 50, 60, 70, 80 };
+//
+//        // determines length of firstArray
+//        int a1 = a.length;
+//
+//        // determines length of secondArray
+//        int b1 = b.length;
+//
+//        // resultant array size
+//        int c1 = a1 + b1;
+//
+//        // create the resultant array
+//        int[] c = new int[c1];
+//
+//        // using the pre-defined function arraycopy
+//        System.arraycopy(a, 0, c, 0, a1);
+//        System.arraycopy(b, 0, c, a1, b1);
+//
+//        // prints the resultant array
+//        System.out.println(Arrays.toString(c));
+
+
+
+
     }
 }

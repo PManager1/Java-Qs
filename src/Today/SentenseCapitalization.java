@@ -26,6 +26,27 @@ public class SentenseCapitalization {
     public static void main(String[] args) {
         //        Input: title = "First leTTeR of EACH Word"
 //        Output: "First Letter of Each Word"
+
+//     Algorithm:  string.split(" ").  saves each word in an array.
+//        Traverse each word in the array and capitalize the first and lowercase other characters.
+        String title = "First leTTeR of EACH Word";
+        System.out.println("title charAt 0 =" + title.charAt(0)  + title.length());
+
+        char cp =  Character.toLowerCase(title.charAt(0));
+        System.out.println("37----> cp =" + cp );
+        String newTitle =  cp+title.substring(1,title.length() );
+        System.out.println(" 39 - - newTitle =" + newTitle );
+
+        String titleArr []  = title.split(" ");
+
+        for ( int i=0; i<titleArr.length; i++ ){
+            System.out.println("titlearr0 " + titleArr[i] );
+
+
+
+        }
+
+
     }
 
 

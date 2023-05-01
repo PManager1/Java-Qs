@@ -47,25 +47,38 @@ public class MaxChars_ste {
             System.out.println("3 containsKey: " + chars.containsKey (stArr[i].charAt(0) ));
             } else {
                 // find the char and increase the number by one.
-                System.out.println(" ELSE -   containsKey: " + chars.containsKey (stArr[i].charAt(0)  ));
-
+                System.out.println(" ELSE - EXIST - containsKey: " + chars.containsKey (stArr[i].charAt(0)  ));
+                char key = stArr[i].charAt(0);
+                System.out.println("51 key= "+ key);
+                System.out.println("53 Value of a key= "+ chars.get('a'));
+                int ValueOfKey = chars.get(stArr[i].charAt(0)); //  chars.get('a');
+                System.out.println("55  ValueOfKey= "+ ValueOfKey);
+                chars.replace(stArr[i].charAt(0), ValueOfKey +1 );
             }
 
-
             // if chars.IteratingChar = exists // Traverse the Object ,  If exists, then increase its Count Number.
-
 
         }
 
         System.out.println("chars: " + chars);
 
-        // for loop
+//        Jay finish it by sorting it.
+
+// Solution: ( from stephen Video )  Traverse through each key , Then, find its value. Then keep updating the  max & maxChar values;
+
+//        Now here finding which one have the highest number.
+        int maxValue = 0;
+           char maxChar;  // a, b, c
+
+        for (Character key : chars.keySet()) {
+            System.out.println("Key = " + key);
+//            System.out.println("Key = " + value);
+        }
 
 
-
-
-
-
+//        for (Integer value : chars.values()) {
+//            System.out.println("Value = " + value);
+//        }
 
 
     }

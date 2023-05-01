@@ -20,7 +20,9 @@ public class Hashmap_Lesson {
 
         System.out.println("containsKey: " + languages.containsKey ("Java"));
         System.out.println("containsValue : " + languages.containsValue(62));
-
+//        (languages);
+//        putIfAbsent('steve', 89);
+//        map.put(key, count + 1);
 
 
 

@@ -33,6 +33,4 @@ public class Build_Array_from_Permutation {
         System.out.println("result="+ Arrays.toString(nums));
     }
 
-
-
 }
