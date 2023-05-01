@@ -24,29 +24,6 @@ import java.util.List;
 public class max_iiiish {
     public static void main(String[] args) {
 
-//        int a []  = {1, 3, 5};
-//        int b []  = {2, 6, 8, 9};
-
-
-//        int[] array1 = {1, 2, 3};
-//        int[] array2 = {4, 5, 6};
-//
-//        int aLen = array1.length;
-//        int bLen = array2.length;
-//        int[] result = new int[aLen + bLen];
-//
-//        System.arraycopy(array1, 0, result, 0, aLen);
-//        System.arraycopy(array2, 0, result, aLen, bLen);
-//        System.out.println(Arrays.toString(result));
-
-//
-//        String aa[] = { "A", "E", "I" };
-//        String bb[] = { "O", "U" };
-//        List list = new ArrayList(Arrays.asList(aa));
-//        list.addAll(Arrays.asList(bb));
-//        Object[] cc = list.toArray();
-//        System.out.println(Arrays.toString(cc));
-
         Integer a []  = {1, 3, 5};
 //        int c []  = {1, 3, 5};
 
