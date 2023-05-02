@@ -4,45 +4,38 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.HashMap;
 
+//https://www.geeksforgeeks.org/given-two-unsorted-arrays-find-pairs-whose-sum-x/
 public class isshP_findPairsThatAddUpToAGivenNo_Hash {
 
     public static void main(String[] args) {
 
-        int[] nums = { 8, 7, 2, 5, 3, 1 };
-        int target = 10;
-
-        findPair(nums, target);
-
+        int arr1[] = { 1, 0, -4, 7, 6, 4 };
+        int arr2[] = { 0, 2, 4, -3, 2, 1 };
+        int targetSum = 8;
+        findPairs(arr1, arr2, arr1.length, arr2.length, targetSum);
     }
 
-    public static void findPair(int[] nums, int target)
-    {
-        // create an empty HashMap
-        Map<Integer, Integer> map = new HashMap<>();
+    public static void findPairs(int arr1[], int arr2[], int n, int m, int targetSumm)
+    {   // Insert all elements of first array in a hash
+        HashMap<Integer, Integer> TheMap = new HashMap<Integer, Integer>();
 
-        // do for each element
-        for (int i = 0; i < nums.length; i++)
-        {
-            // check if pair (nums[i], target-nums[i]) exists
+        for (int i = 0; i < n; i++)
+            TheMap.put(arr1[i], 0);
+            System.out.println("27 --- TheMap ="+ TheMap );
 
-            // if the difference is seen before, print the pair
-            if (map.containsKey(target - nums[i]))
-            {
-                System.out.printf("Pair found (%d, %d)",
-                        nums[map.get(target - nums[i])], nums[i]);
-                return;
-            }
-
-            // store index of the current element in the map
-            map.put(nums[i], i);
-        }
-
-        // we reach here if the pair is not found
-        System.out.println("Pair not found");
+        // Subtract sum from second array elements one
+        // by one and check it's present in array first
+        // or not
+        for (int j = 0; j < m; j++)  //8   - arr2[j]
+            if (TheMap.containsKey(targetSumm - arr2[j]))
+                System.out.println(targetSumm - arr2[j] + " " + arr2[j]);
     }
 }
 
 
-
+//        6 2
+//        4 4
+//        6 2
+//        7 1
 
 // good solution :  https://www.techiedelight.com/find-pair-with-given-sum-array/

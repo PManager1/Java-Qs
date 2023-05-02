@@ -71,8 +71,6 @@ j
 :src/Leet_V_Easy/Count_theDigitsThatDivideaNumber_2520.java,b/9/b96808de86f6658d170b38a98d760ba1396d5e6d
 R
 "src/Lessons/boxingUnboxing142.java,2/8/2827ec1adf73b60db362e39b53a0ff55f2449363
-Q
-!src/Todo_Interview/Fibonacci.java,e/1/e1f36b33e3e61f8f7431afdc6deb86db025f2d90
 G
 src/Lessons/Enum_s.java,0/b/0b0e347cdee91c76cd3a69b8a8e6022e6c0fd34a
 T
@@ -221,10 +219,6 @@ I
 src/Today/MaxChars_ste.js,4/a/4aee7100ab873779408ab6f6d108aafb4edc316e
 \
 ,src/Leet_V_Easy/SortingtheSentence_1859.java,c/4/c49296c48aebec74966c09b2d5bd8bd351fc09da
-H
-src/Today/z_Sorting.java,9/d/9d0074d8bc9698f8aad9bc6d2b36656b0f0ba012
-P
- src/Today/PrintingSteps_ste.java,b/7/b7f74feb54b3528715d518315e531908c819c8bc
 a
 1src/Leet_V_Easy/Build_Array_from_Permutation.java,8/f/8f0c1dabbc5a053a825fe3e944f5cd31ef166069
 U
@@ -233,15 +227,5 @@ j
 :src/AlgoEx_Easy/e_2_if2ndArrayisValidSubsetOf1stArray.java,a/6/a61b01fd618617833168bab97abe6483a482c8d0
 O
 src/Later/MatrixSpiral_ste.java,c/8/c8a37bbb0bbb8ed89f3d70a4d92026bc9cd1b63f
-K
-src/Today/MaxChars_ste.java,8/1/8162fa99e71fca21a31829f7b65401e801df1125
-J
-src/Today/Pyramid_ste.java,d/c/dca9fab35aba2f44dcbd68aaa7984593e7f9aee1
-H
-src/Today/Queue_ste.java,f/f/ff06ae49abf9d6c556c82553e8caf16dc4d74b41
-F
-src/Today/Queue_ste.js,a/8/a85f2b8eda9dead489e3710ba35a820c24f7b95b
-U
-%src/Today/SentenseCapitalization.java,4/8/48c4175a1e12c6df004614569e48dc3665885ce7
 H
 src/Today/Steps_ste.java,8/2/82cf1720d1355cf99db5b1671dbf1f7f07f9e9e1

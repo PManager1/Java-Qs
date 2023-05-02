@@ -35,20 +35,38 @@ public class isshP_findPairsThatAddUpToAGivenNo {
     //
     public static void main(String[] args) {
 
-        int nums1[] = {-1, -2, 4, -6, 5, 7};
-        int nums2[] = {6, 3, 4, 0};
-        int targetSum = 8;
+//        int nums1[] = {-1, -2, 4, -6, 5, 7};
+//        int nums2[] = {6, 3, 4, 0};
+//        int targetSum = 8;
 
+        int nums1[] = {1, 2, 4, 5, 7};
+        int nums2[] = {5, 6, 3, 4, 8};
+        int targetSum = 9;
+        //        Output : 1 8
+        //        4 5
+        //        5 4
         // Solution 2 is Binary Search Tree  -  https://www.geeksforgeeks.org/given-two-unsorted-arrays-find-pairs-whose-sum-x/
 // hashmap  - https://leetcode.com/problems/finding-pairs-with-a-certain-sum/solutions/1211331/my-java-solution-using-concept-of-2-sum-problem/?orderBy=most_votes&languageTags=java
 
-        Map<Integer, Integer> totalPairsMap = new HashMap<>();
         // in both the arrays , Try    targetSum - arr2[i] = arr1[i]  // if yes  insert/ put it into the map.
-        for (int number : nums2) {
-                System.out.println("48---nums ="+ number);
-//            map.put(number, map.getOrDefault(number, 0) + 1);
-        }
 
+        class Solution {
+            public int[] twoSum(int[] nums, int target) {
+                Map<Integer, Integer> complement = new HashMap<>();
+
+                for (int i = 0; i < nums.length; ++i) {
+                    int temp = target - nums[i];
+
+                    if (complement.containsKey(temp)) {
+                        return new int[] {complement.get(temp), i};
+                    }
+
+                    complement.put(nums[i], i);
+                }
+
+                return null;
+            }
+        }
 
 
 
@@ -76,35 +94,4 @@ public class isshP_findPairsThatAddUpToAGivenNo {
 // Solution 2 is Binary Search Tree  -  https://www.geeksforgeeks.org/given-two-unsorted-arrays-find-pairs-whose-sum-x/
 // hashmap  - https://leetcode.com/problems/finding-pairs-with-a-certain-sum/solutions/1211331/my-java-solution-using-concept-of-2-sum-problem/?orderBy=most_votes&languageTags=java
 
-
-class FindSumPairs {
-
-    private int [] nums1;
-    private int [] nums2;
-    Map<Integer, Integer> map = new HashMap<>();
-    public FindSumPairs(int[] nums1, int[] nums2) {
-        this.nums1 = nums1;
-        this.nums2 = nums2;
-        for (int number : nums2) {
-            map.put(number, map.getOrDefault(number, 0) + 1);
-        }
-
-    }
-
-    public void add(int index, int val) {
-        map.put(nums2[index], map.get(nums2[index]) - 1);
-        nums2[index] += val;
-        map.put(nums2[index], map.getOrDefault(nums2[index], 0) + 1);
-    }
-
-    public int count(int tot) {
-        int result = 0;
-        for (int number : nums1) {
-            if (map.containsKey(tot - number)) {
-                result += map.get(tot - number);
-            }
-        }
-        return result;
-    }
-}
 

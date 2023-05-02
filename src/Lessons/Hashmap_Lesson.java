@@ -42,5 +42,10 @@ public class Hashmap_Lesson {
 //        characters.put('g', 19);  // this will override the exiting value.
 //        characters.replace('z', 19);  //  if the key dont exist it wont do anything bc it dont exist.
 
+
+//         increment a  value in Hashmap  :   https://stackoverflow.com/questions/81346/most-efficient-way-to-increment-a-map-value-in-java
+//        String key = Doubles.get(i);
+//        int count = Result.getOrDefault(key, 0); // ensure count will be one of 0,1,2,3,...
+//        Result.put(key, count + 1);
     }
 }
