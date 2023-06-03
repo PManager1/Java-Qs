@@ -1,4 +1,4 @@
-package Lessons;
+package Lessons_Arrays_And_Hashmaps;
 
 public class NewInJava {
     public static void main(String[] args) {

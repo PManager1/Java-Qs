@@ -1,4 +1,4 @@
-package Lessons;
+package Lessons_Arrays_And_Hashmaps;
 
 import java.util.HashMap;
 

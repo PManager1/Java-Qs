@@ -4,8 +4,6 @@ package stephen;// Print the fibonacci series like this
 // MUST DO RECURSSIVE SOLUTION
 
 
-import Lessons.Arrays;
-
 public class Fibonacci {
     public static void main(String[] args) {
    System.out.println("hello sir");
