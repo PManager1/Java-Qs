@@ -16,28 +16,68 @@ package AlgoEx_Easy;
 //https://www.youtube.com/watch?v=TcsYEnMrnFo
 
 //Fix it: Find all the numbers, not just one.
+// Figure out :  if array is passed, how do you convert it into the list ?
 
+
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 public class TwoNumberSum_1 {
 
     public static void main(String[] args) {
 
-        int [] arr = { 3, 5, -4, 8, 11, 1, -1, 6 };  // 10
+//        int [] arr = { 3, 5, -4, 8, 11, 1, -1, 6 };  // 10
 //        int [] arr = { 3, 1, -4, 8, 11, 5, -1, 6 };  // 10
+        int [] arr = { 3, 5, 4, 8, 11, 1, 1, 6 };  // 10
         int targetSum = 10;
 
-//        computeFn( int[] array, targetSum);
-          int res =   computeFn(arr, targetSum );
+//                                            List<Integer> strings = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
+//                                            List<Integer> listArr = Arrays.asList(12, 9, 13, 4, 6, 2, 4, 12, 15);
+
+//        int res =   computeFn(arr, targetSum );
+        int [] res =   computePointersFn(arr, targetSum );
         System.out.println("res =" + res);
+    }
+
+    public static int [] computePointersFn ( int [] arr, int targetSum ) {
+
+        Arrays.sort(arr);
+
+        System.out.println("\nThe sorted array is: ");
+        for (int num : arr) {
+            System.out.print( " "+ num );
+        }  // int [] arr = { -4 -1 1 3 5 6 8 11 };  //Target = 10;
+
+        int left = arr[0], right = arr.length-1;
+
+        // Traverse while ( left < right )
+        // check if lft + rght = target;
+        // if not
+
+//        while ( left < right){
+//            int sum = arr[left] + arr[right];
+//            if( sum == targetSum) {   return new int [] {arr[left] ,arr[right]};  }
+//            else if (sum < targetSum ) { left ++;    }
+//            else if (sum > targetSum ) {  right--;   };
+//        }
+
+
+        while (left < right) {
+             int currentSum = arr[left] + arr[right];
+             if (currentSum == targetSum) {
+                 return new int[] { arr[left], arr[right]};
+             } else if (currentSum < targetSum) {  left ++; }
+             else if (currentSum > targetSum) {  right --; }
+             }
+
+        return new int [0];
 
     }
 
-    public static int computeFn (int[] arr, int targetSum ){
-//        public static int computeFn ( ){
 
-//        var ht = new Hashtable<>();
-//        HashMap<Integer, Boolean> ht = new HashMap<>();
+    public static int computeFn (int[] arr, int targetSum ){
          HashMap<Integer,Boolean> hm=new HashMap<Integer,Boolean>();
          for (int i = 0; i <arr.length; i++) {
              hm.put( arr[i], true);
