@@ -1,4 +1,4 @@
-package AlgoEx_Easy;
+package Leet_Easy;
 
 //We are given an array of positive integers, which represent the values of coins
 // that we have in our possession. The array could have duplicates. We are asked

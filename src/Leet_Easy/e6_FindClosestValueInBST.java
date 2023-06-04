@@ -1,4 +1,4 @@
-package AlgoEx_Easy;
+package Leet_Easy;
 
 
 //BST construction is pre requisite to this quetion. Lesson 35.

@@ -1,4 +1,4 @@
-package AlgoEx_Easy;
+package Leet_Easy;
 
 public class e_2_if2ndArrayisValidSubsetOf1stArray {
 

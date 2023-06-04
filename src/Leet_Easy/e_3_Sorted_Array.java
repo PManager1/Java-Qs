@@ -1,4 +1,4 @@
-package AlgoEx_Easy;
+package Leet_Easy;
 
 
 // given input array of integers, that is already sorted.
