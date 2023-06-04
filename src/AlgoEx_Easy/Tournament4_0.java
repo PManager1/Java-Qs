@@ -12,6 +12,7 @@ public class Tournament4_0 {
         ArrayList<Integer> results = new ArrayList<>(Arrays.asList(0,0,1));
         ArrayList<ArrayList<String>> competitions = new ArrayList<>(Arrays.asList(cpt1, cpt2, cpt3));
 
+//Learn Jay
         ArrayList<String> competition = new ArrayList<>();
         HashMap<String, Integer> scores = new HashMap<>();
 
@@ -43,6 +44,7 @@ public class Tournament4_0 {
     //figure out who is hte windder in each game ( array ),
     //insert it winner in the hashaap ,    if the HM have the string in it, so increase the count of it. Like this  "python": 2.
 
+//Learn Jay
     public static void updateScores(String team, int points, HashMap<String, Integer> scores) {
         if(!scores.containsKey(team)) {
             scores.put(team, 0);
