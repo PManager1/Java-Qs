@@ -18,6 +18,8 @@ package AlgoEx_Easy;
 //Fix it: Find all the numbers, not just one.
 // Figure out :  if array is passed, how do you convert it into the list ?
 
+// Debug : using pointers is given in 3.pdf
+//June 3 with hash, not right here is rt https://www.youtube.com/watch?v=TcsYEnMrnFo
 
 import java.util.ArrayList;
 import java.util.Arrays;

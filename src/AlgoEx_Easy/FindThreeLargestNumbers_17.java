@@ -10,46 +10,31 @@ public class FindThreeLargestNumbers_17 {
 
         List<Integer> input = Arrays.asList( 141, 1, 17,-7, -17, -27, 18, 541, 8, 7 , 7);
 
-        List<Integer> output = Arrays.asList( 0,0,0 );
+        List<Integer> threeLargest = Arrays.asList( 0,0,0 );
 
-        System.out.println(" input ="+ input + "out "+ output);
-
+        System.out.println(" input ="+ input + "threeLargest "+ threeLargest);
 
         for (int i = 0; i < input.size(); i++) {
-
-            System.out.println( "20--->out "+ output);
-
-            if ( input.get(i) > output.get(2)  ) { shiftAndUpdate( output, 1, 12);
-                      }
-            else if  ( input.get(i) > output.get(1)  ) {             }
-            else if  ( input.get(i) > output.get(0)  ) {                 }
-
+            int num = input.get(i);
+            if ( num > threeLargest.get(2)  ) { shiftAndUpdate( threeLargest, num,2 );  }
+            else if  ( num > threeLargest.get(1)  ) { shiftAndUpdate( threeLargest,  num, 1);       }
+            else if  ( num > threeLargest.get(0)  ) { shiftAndUpdate( threeLargest, num, 0);      }
         }
-
     }
 
-    public static void shiftAndUpdate(List<Integer> arr, int idx, int element ){
+    public static void shiftAndUpdate(List<Integer> arr, int num , int idx  ){
+        System.out.println("28-- arr"+  arr );
 
-        for (int i = 0; i <idx; i++) {
-                if (idx == i ) { // replace the number straight
-//                        arr[i] = element;
-
+        for (int i = 0; i <= idx; i++) {
+                if (i == idx ) { // replace the number straight
+                        arr.set(idx, num);
                      }
                 else {
-//                    arr[i] = arr [i+1];
+                    int j = arr.get(i+1);   //                    arr [i] = arr [i+1];
+                    arr.set(i, j );
                 }
-
+            System.out.println("42- arr"+  arr );
         }
-
-        // if idx = 1 || 2   do the shifting  arr[i] = arr [i+1]
-
-//            move value at idx to left
-//            and put the value there at that index.
-// if idx == 0, dont move, just put there.
-
-//        for (int i = 0; i < ; i++) {
-//
-//        }
 
     }
 }
