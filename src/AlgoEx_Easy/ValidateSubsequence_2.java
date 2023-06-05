@@ -13,11 +13,10 @@ package AlgoEx_Easy;
 
 // basically copied from 2.pdf.
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ValidateSubsequence_0 {
+public class ValidateSubsequence_2 {
     public static void main(String[] args) {
 
         List<Integer> array = Arrays.asList(5, 1, 22, 25, 6, -1, 8, 10);

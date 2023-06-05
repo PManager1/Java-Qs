@@ -28,7 +28,7 @@ public class FindThreeLargestNumbers_17 {
 
     }
 
-    public static void shiftAndUpdate( List arr[], int idx, int element ){
+    public static void shiftAndUpdate(List<Integer> arr, int idx, int element ){
 
         for (int i = 0; i <idx; i++) {
                 if (idx == i ) { // replace the number straight
@@ -36,7 +36,7 @@ public class FindThreeLargestNumbers_17 {
 
                      }
                 else {
-                    arr[i] = arr [i+1];
+//                    arr[i] = arr [i+1];
                 }
 
         }
